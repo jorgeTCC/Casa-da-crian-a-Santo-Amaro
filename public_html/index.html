@@ -4,9 +4,11 @@
       <meta charset="utf-8"/>
       <title>Casa da Criança Santo Amaro</title>
       <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <style>
+         @import url('https://fonts.googleapis.com/css?family=Nunito');
          *{
-         margin: 0 auto;
+            font-family: 'Nunito', sans-serif;
          }
          .bg-menu{
          background-color: #004677;
@@ -14,6 +16,14 @@
          .logo-site{
              position:absolute;
              top:100px; 
+             left: 50px; z-index: 2;
+         }
+         .quem-somos{
+             margin-top: 25px;
+         }
+         #doacao{
+             position:absolute;
+             top:350px; 
              left: 50px; z-index: 1;
          }
       </style>
@@ -58,6 +68,8 @@
           <a href="" class="logo-site">
               <img src="img/logo.jpg" alt="">
           </a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="doacao">Como ajudar <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button>
          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -114,6 +126,39 @@
          </div>
       </div>
       </header>
+      <section class="container">
+          <section class="row">
+              <div class="col-md-6 quem-somos">
+                  <h1>Quem Somos</h1>
+                  <hr>
+                  <img src="img/quem-somos-home.jpg" alt=""/>
+                  <p>Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. 
+Apoiamos o processo de desenvolvimento e formação de crianças e adolescentes atendidos em nossos três principais projetos – Casa Lar (Serviços de Acolhimento de Crianças e Adolescentes), Saica (Serviço de Acolhimento Institucional de Crianças e Adolescentes) e CCA (Contra Turno Escolar). 
+Para isso, procuramos oferecer um ambiente acolhedor, baseado em respeito e carinho, que possibilite o desenvolvimento integral das crianças e adolescentes atendidos na Entidade.</p>
+              </div>
+              <div class="col-md-6 quem-somos">
+                  <div class="col-md-12">
+                      <h4>Seja voluntário</h4>
+                      <img src="img/solidarity.png" alt=""/>
+                      <small>O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.</small>
+                      <hr>
+                  </div>
+                  <div class="col-md-12">
+                      <h4>Como ajudar</h4>
+                      <img src="img/question.png" alt=""/>
+                      <small>O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.Cadastre-se aqui para receber informações sobre nossos eventos. como ajudar. Existem diversas formas de ajudar! Aceitamos doações para apoiar os nossos projetos, bem como doação de materiais (roupas, produtos de limpeza, alimentos, pedagógicos). leia mais informações. </small>
+                  <hr>
+                  </div>
+                  <div class="col-md-12">
+                      <h4>Projetos</h4>
+                      <img src="img/presentation.png" alt=""/>
+                      <small>O Centro da Criança e do Adolescente - CCA atende 70 crianças e adolescentes ( 06 a 14 anos ) separadas em duas salas de aula por período e conta com educadores de diferentes linguagens; leia mais
+A Casa da Criança esta precisando adequar suas instalações para melhor atender nossas crianças. Se você puder nos ajudar, por favor entre em contato.</small>
+                      <hr>
+                  </div>
+              </div>
+          </section>           
+      </section>
    </body>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
