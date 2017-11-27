@@ -7,7 +7,6 @@
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.js"></script>
-
       <style>
          @import url('https://fonts.googleapis.com/css?family=Nunito');
          *{
@@ -28,12 +27,7 @@
          position:absolute;
          top:350px; 
          left: 50px; z-index: 1;
-         }
-         .doar-img{
-             max-width: 200px;
-             margin: 0 auto;
-             border: 2px #004677 dashed;
-         }
+         }         
       </style>
    </head>
    <body>
@@ -136,34 +130,42 @@
       </header>
       <section class="container">
          <section class="row">
-            <div class="col-md-6 quem-somos">
-               <h1>Quem Somos</h1>
-               <hr>
-               <img src="img/quem-somos-home.jpg" alt=""/>
-               <p>Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. 
-                  Apoiamos o processo de desenvolvimento e formação de crianças e adolescentes atendidos em nossos três principais projetos – Casa Lar (Serviços de Acolhimento de Crianças e Adolescentes), Saica (Serviço de Acolhimento Institucional de Crianças e Adolescentes) e CCA (Contra Turno Escolar). 
-                  Para isso, procuramos oferecer um ambiente acolhedor, baseado em respeito e carinho, que possibilite o desenvolvimento integral das crianças e adolescentes atendidos na Entidade.
-               </p>
+            <div class="col-md-8 quem-somos">
+               <div class="card mb-3">
+                  <img class="card-img-top" src="img/quem-somos-home.jpg" alt="Card image cap">
+                  <div class="card-body">
+                     <h4 class="card-title">Quem somos</h4>
+                     <p class="card-text">Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. Apoiamos o processo de desenvolvimento e formação de crianças e adolescentes atendidos em nossos três principais projetos – Casa Lar (Serviços de Acolhimento de Crianças e Adolescentes), Saica (Serviço de Acolhimento Institucional de Crianças e Adolescentes) e CCA (Contra Turno Escolar). Para isso, procuramos oferecer um ambiente acolhedor, baseado em respeito e carinho, que possibilite o desenvolvimento integral das crianças e adolescentes atendidos na Entidade.</p>
+                  </div>
+               </div>
             </div>
-            <div class="col-md-6 quem-somos">
-               <div class="col-md-12">
-                  <h4>Seja voluntário</h4>
-                  <img src="img/solidarity.png" alt=""/>
-                  <small>O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.</small>
-                  <hr>
+            <div class="col-md-4 quem-somos">
+               <div class="card mb-3">
+                  <div class="card-body">
+                     <h5 class="card-title">Seja voluntário</h5>
+                     <p class="card-text">O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.</p>
+                  </div>
                </div>
-               <div class="col-md-12">
-                  <h4>Como ajudar</h4>
-                  <img src="img/question.png" alt=""/>
-                  <small>O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.Cadastre-se aqui para receber informações sobre nossos eventos. como ajudar. Existem diversas formas de ajudar! Aceitamos doações para apoiar os nossos projetos, bem como doação de materiais (roupas, produtos de limpeza, alimentos, pedagógicos). leia mais informações. </small>
-                  <hr>
+               <div class="card mb-3">
+                  <img class="card-img-top" src="img/como-ajudar-home.jpg" alt="Card image cap">
+                  <div class="card-body">
+                     <h5 class="card-title">Como ajudar</h5>
+                     <p class="card-text">Existem diversas formas de ajudar!
+                        Aceitamos doações para apoiar os nossos projetos, bem como doação de materiais (roupas, produtos de limpeza, alimentos, pedagógicos).
+                     <a href="">leia mais informações</a>
+                     </p>
+                  </div>
                </div>
-               <div class="col-md-12">
-                  <h4>Projetos</h4>
-                  <img src="img/presentation.png" alt=""/>
-                  <small>O Centro da Criança e do Adolescente - CCA atende 70 crianças e adolescentes ( 06 a 14 anos ) separadas em duas salas de aula por período e conta com educadores de diferentes linguagens; leia mais
-                  A Casa da Criança esta precisando adequar suas instalações para melhor atender nossas crianças. Se você puder nos ajudar, por favor entre em contato.</small>
-                  <hr>
+               <div class="card mb-3">
+                  <div class="card-body">
+                     <h5 class="card-title">Projetos</h5>
+                     <p class="card-text">O Centro da Criança e do Adolescente - CCA atende 70 crianças e adolescentes ( 06 a 14 anos ) separadas em duas salas de aula por período e conta com educadores de diferentes linguagens; <a href="#">leia mais</a>.</p>
+                  </div>
+               </div>
+               <div class="card alert alert-warning">
+                  <div class="card-body">
+                     <p class="card-text">A Casa da Criança esta precisando adequar suas instalações para melhor atender nossas crianças. Se você puder nos ajudar, por favor <a href="#">entre em contato</a>.</p>
+                  </div>
                </div>
             </div>
          </section>
@@ -180,48 +182,47 @@
                </div>
                <div class="modal-body">
                   <div class="container">
-                    <ul class="nav nav-tabs" style="border-bottom: 0px;">                      
-                      <li><a href="#pf" class="btn btn-info">Pessoa Física</a></li>
-                      <li><a href="#pj" class="btn btn-info">Pessoa Jurídica</a></li>
-                    </ul>
-
-                    <div class="tab-content">
-                      <div id="pf" class="tab-pane fade in active">
-                        <h5>Pessoa fisica</h5>
-                        <hr>
-                        <form name="dados" method="POST">
-                            <div class="form-group">
-                                <label>Forma de doação</label>
-                                <select id="tipo" class="form-control">
+                     <ul class="nav nav-tabs" style="border-bottom: 0px;">
+                        <li><a href="#pf" style="margin: 50px;">Pessoa Física</a></li>
+                        |
+                        <li><a href="#pj" style="margin: 50px;">Pessoa Jurídica</a></li>
+                     </ul>
+                     <div class="tab-content">
+                        <div id="pf" class="tab-pane fade in active">
+                           <h5 class="text-center">Pessoa fisica</h5>
+                           <hr>
+                           <form name="dados" method="POST">
+                              <div class="form-group">
+                                 <label>Forma de doação</label>
+                                 <select id="listar" class="form-control">
                                     <option selected disabled> Selecione o tipo</option>
-                                </select>
-                                  <script>
-                                    var text = '{"tipo":[' +
+                                 </select>
+                                 <script>
+                                    var text = '{"listar":[' +
                                         '{"forma":"1 - SEJA PADRINHO DE UMA CRIANÇA"},' +
-                                        '{"forma":"2 - DOAÇÃO ONLINE:"},' +
-                                        '{"forma":"3 - EM DEPÓSITO:"},' +
-                                        '{"forma":"4 - DOAÇÕES DE NOVOS E USADOS PARA O BAZAR "},' +
+                                        '{"forma":"2 - DOAÇÃO ONLINE"},' +
+                                        '{"forma":"3 - EM DEPÓSITO"},' +
+                                        '{"forma":"4 - DOAÇÕES DE NOVOS E USADOS PARA O BAZAR"},' +
                                         '{"forma":"5 - DOAÇÃO DE MATERIAIS"},' +
                                         '{"forma":"6 - APOIO FINANCEIRO E/OU MATERIAL PARA REFORMA DE UMA DE NOSSAS UNIDADES"},' +
                                         '{"forma":"7 - ATRAVÉS DO FUMCAD"}]}';
-
+                                    
                                     obj = JSON.parse(text);     
                                     for (var i = 0; i < 5; i++) {
-                                      document.getElementById("tipo").innerHTML += "<option>" + obj.tipo[i].forma + "";
+                                      document.getElementById("listar").innerHTML += "<option>" + obj.listar[i].forma + "";
                                     }
-                                  </script>
-                                  <div class="form-group">
+                                 </script>
+                                 <div class="form-group">
                                     <label>CPF</label>
                                     <input type="text" class="form-control" id="cpf" name="cpf" maxlength="14">
-                                  </div>
-                            </div>
-                        </form>
-                      </div>
-                      <div id="pj" class="tab-pane fade">
-                        <h5>Pessoa jurídica</h5>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      </div>
-                    </div>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <div id="pj" class="tab-pane fade">
+                           <h5>Pessoa jurídica</h5>
+                        </div>
+                     </div>
                   </div>
                </div>
                <div class="modal-footer">
@@ -231,13 +232,13 @@
          </div>
       </div>
       <script>
-        $(document).ready(function(){
-            $(".nav-tabs a").click(function(){
-                $(this).tab('show');
-            });
-        });
-        $('#cpf').mask('000.000.000-00', {reverse: true});
-       </script>
+         $(document).ready(function(){
+             $(".nav-tabs a").click(function(){
+                 $(this).tab('show');
+             });
+         });
+         $('#cpf').mask('000.000.000-00', {reverse: true});
+      </script>
    </body>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
